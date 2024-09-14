@@ -4,11 +4,11 @@
 #include <HardwareSerial.h>
 
 // Wi-Fi configuration
-const char* ssid = "Didi";
-const char* password = "hadil1234";
+const char* ssid = "YOUR SSID";
+const char* password = "YOUR PW";
 
 // MQTT server configuration
-const char* mqtt_server ="102.219.178.133";
+const char* mqtt_server ="your MQTT server";
 const int mqtt_port = 1883;
 const char* mqtt_topic = "/Topic/LED";
 
